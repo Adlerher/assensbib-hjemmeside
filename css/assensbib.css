@@ -1,0 +1,38 @@
+body{
+  background-color: #DBE8CF;
+}
+
+.rammen{
+  background-color: #ffffff;
+  width: 50%;
+  height: 90%;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 100px;
+}
+.banner{
+   width: 97%;
+   margin-left: 1.5%;
+   margin-top: 1.5%;
+   margin-bottom: 0%;
+   height: auto;
+   max-height: 350px;
+}
+.intro{
+  margin-left: 2%;
+  width: 95%;
+  color: #63774F;
+  margin-top: 1px;
+}
+
+.titel{
+  font-size: 40px;
+  margin-left: 2%;
+  color: #3A3A3A;
+  margin-bottom: 0px;
+}
+.tilbud{
+  margin-left: 2%;
+  margin-top: 0px;
+  color: #3A3A3A;
+}
