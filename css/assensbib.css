@@ -1,3 +1,4 @@
+
 .container{
 background-color: #DBE8CF;
 height: 120px;
@@ -7,49 +8,74 @@ top: 0;
 }
 .logo-top{
   height: 100%;
-  margin-left: 2%;
+  margin-left: 7%;
   margin-top: 0.5%;
   width: auto;
+  float: left;
 }
-.form-box{
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: sans-serif;
-  color: black;
+/*
+---------------------------------------------------------------------------------------------------------------------------
+*/header{
+  background-color: #333;
+  color: #ffffff;
+  padding-top: 30px;
+  min-height: 70px;
 }
-.search-field{
-  height: 20px;
-  padding: 10px;
-}
-.skills{
-  width: 25%;
-  border: none;
-}
-.afdeling{
-  width: 7%;
-  border: none;
-  margin-left: 2px;
-}
-.search-btn{
-  height: 40px;
-  width: 7%;
-  border: none;
-  color: ;
-}
-.search-btn:hover{
-  background: #3A3A3A;
-  cursor: pointer;
-}
-.form-box{
-margin-top: -100px;
-  padding: 20px;
-  width: 50%;
-  margin-left: 25%;
-  margin-right: 25%
+header ul{
+  float: right;
+  margin-right: 30%;
+  margin-top: 3%;
 }
 
+header li{
+  display: inline;
+  padding: 20px 20px 0 20px;
+}
+
+.navigation a{
+color: #ffffff;
+text-decoration: none;
+text-transform: uppercase;
+font-size: 25px;
+}
+ul a:hover{
+  color: #cccccc;
+  font-weight: bold;
+}
+
+.navn{
+  color: #57ad7e;
+  font-weight: bold;
+}
+ul .current a{
+  color: #57ad7e;
+  font-weight: bold;
+}
+
+/*
+-----------------------------------------------------*/
+/* SØGE FELT*/
+.søgefunktion{
+  margin-left: 20%;
+  position: absolute;
+  top: 50%
+  left: 50%;
+  width: 300px;
+  transform: translate(-50%,-50%);
+}
+input{
+  position: relative;
+  display: inline-block;
+  font-size: 20px;
+  box-sizing: border-box;
+}
+
+input [type="text"]{
+  background: #fff;
+  width: 280px;
+  height: 30px;
+  border: none;
+}
 
 body{
   background-color: #DBE8CF;
@@ -60,11 +86,12 @@ body{
   height: 90%;
   margin-left: 20%;
   margin-right: 20%;
-  margin-top: 120px;
+  margin-top: 10px;
 }
 .tekst{
   margin-left: 2%;
   color: #3A3A3A;
+  font-family: 'Arvo', serif;
 }
 .banner{
    width: 97%;
@@ -78,6 +105,7 @@ body{
   width: 95%;
   color: #63774F;
   margin-top: 1px;
+  font-size: 25px;
 }
 
 .titel{
@@ -85,7 +113,13 @@ body{
   margin-bottom: 0px;
 }
 .tilbud{
+  font-size: 25px;
   margin-top: 0px;
+  margin-bottom: 30px;
+}
+.info{
+  font-size: 20px;
+  width: 80%;
 }
 
 .tilmelding{
@@ -93,20 +127,39 @@ body{
 }
 .tilmelding-måder{
   margin-bottom: 0px;
+  font-size: 20px;
 }
 .tilmelding-muligheder{
   margin-top: 0px;
+  font-size: 20px;
 }
 .bestilling{
   font-size: 25px;
 }
-.andre-muligheder{
+.kontaktperson{
+  font-size: 20px;
   margin-bottom: 0px;
 }
-.bestilling{
+.andre-muligheder{
+  margin-bottom: 0px;
+  margin-top: 15px;
+  font-size: 20px;
+}
+.bestilling-liste{
+  margin-top: 0px;
+  font-size: 20px;
+}
+.aflevering-overskrift{
+  font-size: 25px;
+}
+.aflevering{
+  font-size: 20px;
+    margin-bottom: 3px;
+}
+.aflevering-liste{
+  font-size: 20px;
   margin-top: 0px;
 }
-
 .billede-bund{
   width: 97%;
   margin-left: 1.5%;
@@ -114,5 +167,7 @@ body{
   margin-bottom: 0%;
   height: auto;
   max-height: 350px;
-
+}
+.billede-bund1{
+  width: 100%;
 }
