@@ -8,7 +8,7 @@ top: 0;
 }
 .logo-top{
   height: 100%;
-  margin-left: 7%;
+  margin-left: 20%;
   margin-top: 0.5%;
   width: auto;
   float: left;
@@ -23,8 +23,8 @@ top: 0;
 }
 header ul{
   float: right;
-  margin-right: 30%;
-  margin-top: 3%;
+  margin-right: 20%;
+  margin-top: 1.5%;
 }
 
 header li{
@@ -56,11 +56,12 @@ ul .current a{
 -----------------------------------------------------*/
 /* SØGE FELT*/
 .søgefunktion{
-  margin-left: 20%;
+  margin-left: 72%;
+  margin-top: 4%;
   position: absolute;
   top: 50%
   left: 50%;
-  width: 300px;
+  width: 500px;
   transform: translate(-50%,-50%);
 }
 input{
@@ -70,11 +71,27 @@ input{
   box-sizing: border-box;
 }
 
-input [type="text"]{
+input[type="text"]{
   background: #fff;
   width: 280px;
   height: 30px;
   border: none;
+  outline: none;
+  padding: 0 25px;
+  border-radius: 20px 0 0 25px;
+}
+input[type="submit"]{
+  position: relative;
+  border-radius: 0 25px 25px 0;
+  width: 100px;
+  height: 30px;
+  left: -5px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: green;
+  color: #3A3A3A;
+
 }
 
 body{
@@ -170,4 +187,7 @@ body{
 }
 .billede-bund1{
   width: 100%;
+}
+.observation{
+  margin-left: -3%;
 }
