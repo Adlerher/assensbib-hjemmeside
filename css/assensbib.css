@@ -8,7 +8,7 @@
 }
 #valg{
 margin-top: -10px;
-margin-right: 40%;
+margin-right: 32.5%;
 }
 #sider{
   float: right;
@@ -318,3 +318,69 @@ color: #3A3A3A;
   color: #3A3A3A;
 }
 /*------------------------------------------------------------------------*/
+footer{
+  background-color: #3A3A3A;
+  height: 400px;
+}
+#footer-om{
+  display: inline-block;
+  border-bottom: 5px solid;
+  text-transform: uppercase;
+  font-size: 20px;
+  margin-left: 10%;
+  margin-top: 5%;
+}
+
+.menu1{
+  margin-left: -0.6%;
+  list-style: none;
+  padding: 30 0 0 0;
+  color: #fff;
+}
+.menu2{
+  list-style: none;
+  padding: 30 0 0 0;
+  color: #fff;
+  margin-left: -2.3%;
+}
+.menu3{
+  list-style: none;
+  padding: 30 0 0 0;
+  color: #fff;
+  margin-left: -16%;
+}
+
+footer li{
+  padding: 5px 15px;
+  margin-left: 7%;
+}
+footer h2{
+  color: #fff;
+}
+
+#tilbud-til-dig{
+  margin-left: 35%;
+  margin-top: -22.7%;
+}
+#footer-tilbud{
+  display: inline-block;
+  border-bottom: 5px solid;
+  text-transform: uppercase;
+  font-size: 20px;
+  margin-left: 10%;
+  margin-top: 3%;
+}
+
+#kontakt-os{
+  margin-left: 72%;
+  margin-top: -22.7%;
+}
+#footer-kontakt{
+  display: inline-block;
+  border-bottom: 5px solid;
+  text-transform: uppercase;
+  font-size: 20px;
+  margin-left: 5%;
+  margin-top: 7%;
+  color: #fff;
+}
