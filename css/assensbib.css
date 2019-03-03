@@ -162,33 +162,39 @@ a{
 .titel{
   font-size: 40px;
   margin-bottom: 0px;
+  margin-top: 0px;
 }
 .tilbud{
   font-size: 25px;
   margin-top: 0px;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 .info{
   width: 80%;
+  margin-top: 0px;
 }
 
 .tilmelding{
   font-size: 25px;
+  margin-bottom: 0px;
 }
 .tilmelding-måder{
   margin-bottom: 0px;
+  margin-top: 5px;
 }
 .tilmelding-muligheder{
   margin-top: 0px;
 }
 .bestilling{
   font-size: 25px;
+  margin-bottom: 0px;
 }
 .kontaktperson{
   margin-bottom: 0px;
+  margin-top: 5px;
 }
 .andre-muligheder{
-  margin-bottom: 0px;
+  margin-bottom: 5px;
   margin-top: 15px;
 }
 .bestilling-liste{
@@ -196,8 +202,10 @@ a{
 }
 .aflevering-overskrift{
   font-size: 25px;
+  margin-bottom: 0px;
 }
 .aflevering{
+  margin-top: 10px;
     margin-bottom: 3px;
 }
 .aflevering-liste{
@@ -217,6 +225,9 @@ a{
 }
 .observation{
   margin-left: -3%;
+  margin-top: 5px;
+  font-size: 15px;
+  font-weight: bold;
 }
 
 /* MEDIA QQ */
