@@ -7,13 +7,12 @@
   margin-right: 0%;
 }
 #valg{
-margin-top: -10px;
+margin-top: 10px;
 margin-right: 30%;
 font-size: 25px;
 }
 #sider{
   float: right;
-  margin-right: %;
 }
 .valgmuligheder{
   color: #fff;
@@ -84,8 +83,6 @@ ul .current a{
   margin-left: 70%;
   margin-top: 4.5%;
   position: absolute;
-  top: 50%
-  left: 50%;
   width: 400px;
   transform: translate(-50%,-50%);
 }
@@ -226,8 +223,8 @@ a{
   width: 100%;
 }
 .observation{
-  margin-left: -3%;
-  margin-top: 5px;
+  margin-left: 2%;
+  margin-top: -10px;
   font-size: 15px;
   font-weight: bold;
 }
@@ -276,8 +273,6 @@ a{
   margin-left: 70%;
   margin-top: 4.5%;
   position: absolute;
-  top: 50%
-  left: 50%;
   width: 400px;
   transform: translate(-50%,-50%);
 }
@@ -325,7 +320,6 @@ a{
 #find{
 margin-top: -20px;
 width: 100%;
-padding-left:;
 color: #3A3A3A;
 }
 #hjælp{
@@ -348,22 +342,18 @@ footer{
 .menu1{
   margin-left: -0.6%;
   list-style: none;
-  padding: 30 0 0 0;
   color: #fff;
 }
 .menu2{
   list-style: none;
-  padding: 30 0 0 0;
   color: #fff;
   margin-left: -2.3%;
 }
 .menu3{
   list-style: none;
-  padding: 30 0 0 0;
   color: #fff;
   margin-left: -16%;
 }
-
 footer li{
   padding: 5px 15px;
   margin-left: 7%;
